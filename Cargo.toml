@@ -1,0 +1,8 @@
+[package]
+name = "escape"
+version = "1.0.0"
+authors = ["Dirli"]
+edition = "2018"
+
+[dependencies]
+winapi = { version = "0.3", features = [ "winuser", "minwindef", "impl-default", "windef", "ntdef" ] }
